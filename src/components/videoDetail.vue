@@ -27,10 +27,17 @@
         margin-top: 10px;
         margin-bottom: 10px;
         padding: 10px;
-        border: 1px solid #ddd;
+        border: 1px solid #323232;
         border-radius: 4px;
+        color: lightgray;
+    }
+    .details h4 {
+        color: white;
     }
     .video{
         padding-left: 0px;
+    }
+    .embed-responsive{
+        border-radius: 10px;
     }
 </style>
