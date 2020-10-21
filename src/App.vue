@@ -42,7 +42,7 @@
                         type: 'videos',
                         part: 'snippet',
                         q: searchTerm,
-                        maxResults: 2
+                        maxResults: 5
                     }
                 }).then(response => {
                     this.videos = response.data.items
